@@ -32,5 +32,10 @@ DESIGN IDEAS:
 For implementing a homing process - Use a arm that mounts to the main axis (axe-eees) that goes down the length of the HD and will pass over some sort of magnetic sensor or inductive position
 sensor. This will allow the motors to spin the HD until a sensor detects an object meaning the output shaft of the HD is in the correct location.
 
+INSPIRATION:
+Alkaid by JZ - https://github.com/alanzjl/AlkaidMount
+ZWO AM5 - https://www.highpointscientific.com/zwo-am5n-harmonic-drive-equatorial-mount-with-tripod
+William Optics Latitude Base - https://williamoptics.com/products/wo-vixen-style-latitude-base-mount?srsltid=AfmBOoq2dK0res2H1lodv_DhOAtTPYLHiSqc_pLKRGRtTDOESbJT08JW
+
 0.9 Stepper - https://www.moonsindustries.com/p/nema-17-high-precision-hybrid-stepper-motors/ms17ha4p4040-000004611110015909
 ONSTEP      - https://onstep.groups.io/g/main/wiki/4414
