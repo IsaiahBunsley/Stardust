@@ -30,3 +30,6 @@ A redesign of the tangent mount is needed.
 DESIGN IDEAS:
 For implementing a homing process - Use a arm that mounts to the main axis (axe-eees) that goes down the length of the HD and will pass over some sort of magnetic sensor or inductive position
 sensor. This will allow the motors to spin the HD until a sensor detects an object meaning the output shaft of the HD is in the correct location.
+
+https://www.moonsindustries.com/p/nema-17-high-precision-hybrid-stepper-motors/ms17ha4p4040-000004611110015909
+https://onstep.groups.io/g/main/wiki/4414
