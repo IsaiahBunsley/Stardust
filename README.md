@@ -28,9 +28,18 @@ The angle brackets used to mount the steppers are called out as 6061 alum alloy 
 
 A redesign of the tangent mount is needed. This tangent mount is made by William Optics and could be fitted into the design for $250: https://williamoptics.com/products/wo-vixen-style-latitude-base-mount?srsltid=AfmBOoq2dK0res2H1lodv_DhOAtTPYLHiSqc_pLKRGRtTDOESbJT08JW
 
+After looking through the new AM5N's product specs the following seems true:
+reduction ratio: 300:1 
+         This means that they are using a 100:1 HD paired with a 3:1 belt. With this setup they are claiming a arcsec/step of 0.17. This means that they are using stepper microstepping of 1/64 (0.9 / 300 / 64 = deg -> 0.1687 arcseconds) (also assuming 0.9deg steppers).
+There is also a claimed "high payload" mode. I believe that this "mode" simply changes the microstepping value to something more reasonable such as 1/16. This will increase the availiable current per step and thus give more reliable tracking (less periodic error) where more current per step is needed (higher payloads).
+
 DESIGN IDEAS:
 For implementing a homing process - Use a arm that mounts to the main axis (axe-eees) that goes down the length of the HD and will pass over some sort of magnetic sensor or inductive position
 sensor. This will allow the motors to spin the HD until a sensor detects an object meaning the output shaft of the HD is in the correct location.
+
+Add an encoder and brake to the stepper shaft. 
+
+Allow for EQ mode OR an alt/az mode (by removing the tangent assembly).
 
 INSPIRATION:
 Alkaid by JZ - https://github.com/alanzjl/AlkaidMount
