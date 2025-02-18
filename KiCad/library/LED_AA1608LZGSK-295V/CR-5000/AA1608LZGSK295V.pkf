@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "AA1608LZGSK295V"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "AA1608LZGSK295V")
+        (spec "default")
+    )
+)

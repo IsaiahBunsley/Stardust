@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'KAM31NR81H334KU'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Kyocera AVX", "KAM31NR81H334KU" (!) = "", "CAPC3216X127N", "Capacitor Chip Non-polarised", "581-KAM31NR81H334KU", "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/KAM31NR81H334KU?qs=Jm2GQyTW%2FbjfQRGsq6IRfw%3D%3D", "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .33uF X8R 1206 1 0% AEC-Q200", "https://spicat.kyocera-avx.com/product/KAM31NR81H334KU", "1.27 mm"
+END_PART
+
+END.

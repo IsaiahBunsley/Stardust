@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AA1608LZGSK_295V'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Kingbright", "AA1608LZGSK-295V" (!) = "", "AA1608LZGSK295V", "Other", "604-AA1608LZGSK-295V", "https://www.mouser.co.uk/ProductDetail/Kingbright/AA1608LZGSK-295V?qs=IKkN%2F947nfCThbt1yfJa2w%3D%3D", "1.6X0.8MM (0603) GREEN PLCC2 SMD LED mcd @2mA", "https://www.digikey.com/en/products/detail/kingbright/AA1608LZGSK-295V/24632684?msockid=3e3afa68a50969ca3057ef1ca4c9684b", "0.7 mm"
+END_PART
+
+END.

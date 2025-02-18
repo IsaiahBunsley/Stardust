@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MaxESP4 copy copy_c1cb7883840a471ebb8e0ee38e84db47")(type "KiCad")(uri "$(KIPRJMOD)/MaxESP4 copy copy_c1cb7883840a471ebb8e0ee38e84db47.pretty")(options "")(descr ""))
+)

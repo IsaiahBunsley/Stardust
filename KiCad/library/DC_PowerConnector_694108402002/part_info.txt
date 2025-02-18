@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=694108402002
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=3.3
+Released=2019-03-15 08:41:18
+Downloaded=2025-02-12 01:17:04
+3D=Y

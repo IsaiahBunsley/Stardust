@@ -1,0 +1,112 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "GXC1H470MCQ1GS"
+   (description "Aluminum Organic Polymer Capacitors 50VDC 47uF 20% AEC-Q200")
+   (family "CAP")
+   (package "CAPAE830X1080N")
+   (attribute "Datasheet Link" "https://www.mouser.fr/datasheet/2/293/e_gxc-3472314.pdf")
+   (attribute "Geometry.Height" "10.8mm")
+   (attribute "Mouser Part Number" "647-GXC1H470MCQ1GS")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/GXC1H470MCQ1GS?qs=VVKQmw408U%252BvppM%2F%252BGL6cQ%3D%3D")
+   (attribute "Manufacturer_Name" "Nichicon")
+   (attribute "Manufacturer_Part_Number" "GXC1H470MCQ1GS")
+   (gate
+    (symbol "GXC1H470MCQ1GS")
+    (pin "+" 1 PS)
+    (pin "-" 2 PS)
+   )
+  )
+  (symbol "GXC1H470MCQ1GS"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CAPAE830X1080N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -5.8 4.75)
+      (pt 5.8 4.75)
+      (pt 5.8 -4.75)
+      (pt -5.8 -4.75)
+      (pt -5.8 4.75))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 4.15 4.15)
+      (pt -2.075 4.15)
+      (pt -4.15 2.075)
+      (pt -4.15 -2.075)
+      (pt -2.075 -4.15)
+      (pt 4.15 -4.15)
+      (pt 4.15 4.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5.3 4.15)
+      (pt 4.15 4.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.075 -4.15)
+      (pt 4.15 -4.15))))
+   (leg 1 (pt -3.35 0) (padstack 0))
+   (leg 2 (pt 3.35 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 2.15 3.9 0 0 0))
+   )
+   (model "GXC1H470MCQ1GS.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

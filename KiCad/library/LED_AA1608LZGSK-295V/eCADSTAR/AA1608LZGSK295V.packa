@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AA1608LZGSK-295V"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-01-14-11:40:29)
+    (mountForm default
+        (footprintRef "AA1608LZGSK295V")
+        (spec "System")
+    )
+)

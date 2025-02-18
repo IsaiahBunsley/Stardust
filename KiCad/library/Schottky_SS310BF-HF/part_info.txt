@@ -1,0 +1,9 @@
+Manufacturer=Comchip Technology
+PartNumber=SS310BF-HF
+PartCategory=Schottky Diode
+PackageCategory=Small Outline Diode Flat Lead
+PinCount=2
+Version=1.1
+Released=2025-01-06 09:33:06
+Downloaded=2025-02-12 01:09:00
+3D=Y

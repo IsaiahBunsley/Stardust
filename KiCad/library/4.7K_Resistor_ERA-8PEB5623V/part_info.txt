@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=ERA-8PEB5623V
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=2
+Version=3.1
+Released=2022-08-08 11:26:49
+Downloaded=2025-02-12 01:22:36
+3D=Y

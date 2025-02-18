@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "GXC1H470MCQ1GS"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-04-17-05:11:40)
+    (mountForm default
+        (footprintRef "CAPAE830X1080N")
+        (spec "System")
+    )
+)

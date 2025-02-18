@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_647442"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-03-15-08:41:18)
+    (utime 2024-07-19-08:15:11)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "694108402002")
+)
+
+
+(pinAssign "ECS_647442"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-03-15-08:41:18)
+    (utime 2024-07-19-08:15:11)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_647442")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "694108402002")
+)
+
+
+(part "694108402002"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-03-15-08:41:18)
+    (utime 2024-07-19-08:15:11)
+    (packageRef "694108402002")
+    (pinAssignRef "ECS_647442")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "Wurth Elektronik Through Hole DC Power Socket WR-DC Series, 5.5mm Vertical 3A")
+    (property "Mouser_Part_Number" "710-694108402002")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/694108402002?qs=a9WhcLg8qCzJQpyag5XvEQ%3D%3D")
+    (property "Manufacturer_Name" "Wurth Elektronik")
+    (property "Manufacturer_Part_Number" "694108402002")
+    (property "Datasheet_Link" "https://www.we-online.com/components/products/datasheet/694108402002.pdf")
+    (property "compAreaTopHeight" 14.3)
+)
+
+

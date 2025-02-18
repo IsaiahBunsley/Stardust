@@ -1,0 +1,188 @@
+
+(EDIF
+  (rename &AA1608LZGSK_295V "AA1608LZGSK_295V")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 02 16 23 55 52)
+      (dataOrigin "20005711/1601794/2.50/2/3/LED")
+      (program "SamacSys ECAD Model AA1608LZGSK_295V"
+        (version "1.7"))))
+  (library
+  (rename &AA1608LZGSK_295V "AA1608LZGSK_295V")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &AA1608LZGSK_295V "AA1608LZGSK_295V")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "LED")
+          (property (rename PACKAGENAME "PackageName") (string "AA1608LZGSK_295V"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "AA1608LZGSK295V"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "604-AA1608LZGSK-295V"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Kingbright/AA1608LZGSK-295V?qs=IKkN%2F947nfCThbt1yfJa2w%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Kingbright"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "AA1608LZGSK-295V"))
+          (property (rename &Description "Description") (string "1.6X0.8MM (0603) GREEN PLCC2 SMD LED mcd @2mA"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.digikey.com/en/products/detail/kingbright/AA1608LZGSK-295V/24632684?msockid=3e3afa68a50969ca3057ef1ca4c9684b"))
+          (property (rename &Height "Height") (string "0.7 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "AA1608LZGSK_295V"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &K "K")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &A "A")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &K)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -100 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -100 -200))))
+            )
+            (portImplementation
+              (name &A)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 400 -200) (pt 500 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 -200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 100 -100)
+                  (pt 100 -300)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 150 -100)
+                  (pt 50 0)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 250 -100)
+                  (pt 150 0)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 -200)
+                  (pt 100 -200)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 300 -200)
+                  (pt 400 -200)
+                )
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 100 -200)
+                  (pt 300 -100)
+                  (pt 300 -300)
+                  (pt 100 -200)
+                )
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 110 -30)
+                  (pt 80 -60)
+                  (pt 50 0)
+                  (pt 110 -30)
+                )
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 210 -30)
+                  (pt 180 -60)
+                  (pt 150 0)
+                  (pt 210 -30)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 400 80))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 400 -20))))
+          )
+        )
+      )
+    )
+  )
+)

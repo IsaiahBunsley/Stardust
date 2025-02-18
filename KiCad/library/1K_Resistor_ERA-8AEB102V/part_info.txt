@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=ERA-8AEB102V
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=4.1
+Released=2023-03-07 09:37:46
+Downloaded=2025-02-12 01:28:42
+3D=Y

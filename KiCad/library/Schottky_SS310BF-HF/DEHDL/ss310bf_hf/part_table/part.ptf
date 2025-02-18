@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SS310BF_HF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Comchip Technology", "SS310BF-HF" (!) = "", "SODFL5336X130N", "Small Outline Diode Flat Lead", "750-SS310BF-HF", "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS310BF-HF?qs=GBLSl2AkirtJEJa0hY031Q%3D%3D", "- Metal silicon junction, majority carrier conduction. - For surface mounted applications. - Low power loss, high efficiency. - High forward surge current capability. - For use in low voltage, high frequency inverters,  free wheeling, and polarity protection applications", "https://www.mouser.de/datasheet/2/80/20190807092401-2505002.pdf", "1.3 mm"
+END_PART
+
+END.

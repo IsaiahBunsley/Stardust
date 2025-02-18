@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'GXC1V101MCW1GS'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nichicon", "GXC1V101MCW1GS" (!) = "", "CAPAE830X1080N", "Capacitor Al Electrolytic", "647-GXC1V101MCW1GS", "https://www.mouser.co.uk/ProductDetail/Nichicon/GXC1V101MCW1GS?qs=VVKQmw408U%2F2b%252BejxhtVvA%3D%3D", "Aluminum Organic Polymer Capacitors 35VDC 100uF 20% AEC-Q200 Anti-Vibe", "", "10.8 mm"
+END_PART
+
+END.
