@@ -9118,6 +9118,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 77.47 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "098a034e-e3ba-4e05-9ca9-c370eb87e638")
+		(property "Reference" "C8"
+			(at 77.47 169.164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 77.47 171.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 77.47 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_hightemp_en.pdf"
+			(at 77.47 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 77.47 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN" "581-KAM21BR71H104JT"
+			(at 77.47 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6b34064-e4ac-47a1-afa1-24558547fa65")
+		)
+		(pin "1"
+			(uuid "dc18ad83-6442-4799-bd24-49a8c13727da")
+		)
+		(instances
+			(project "Stardust"
+				(path "/0cf7f69c-baaa-4387-8176-0e8bab43a342"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 257.81 134.62 90)
 		(unit 1)
@@ -10774,82 +10850,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 146.05 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3dfe8212-d059-420c-83d9-2228041ddfc8")
-		(property "Reference" "C6"
-			(at 146.05 78.994 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 146.05 81.026 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
-			(at 146.05 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_hightemp_en.pdf"
-			(at 146.05 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 146.05 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser PN" "810-Q1C0G2J104G280KC "
-			(at 146.05 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "081bb9e2-9090-48f6-8f43-1b112f0da6d2")
-		)
-		(pin "1"
-			(uuid "b32b22bf-30e9-4219-abf8-23e9b9050b99")
-		)
-		(instances
-			(project "Stardust"
-				(path "/0cf7f69c-baaa-4387-8176-0e8bab43a342"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "5V Regulator:TS1117BCW50_RPG")
 		(at 60.96 146.05 0)
 		(unit 1)
@@ -11037,82 +11037,6 @@
 			(project "Stardust"
 				(path "/0cf7f69c-baaa-4387-8176-0e8bab43a342"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 77.47 173.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "415c8c02-1fa4-4c20-8fee-cd196134fb7b")
-		(property "Reference" "C8"
-			(at 77.47 169.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 77.47 171.196 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
-			(at 77.47 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_hightemp_en.pdf"
-			(at 77.47 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 77.47 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser PN" "810-Q1C0G2J104G280KC "
-			(at 77.47 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8c285259-e392-49ac-a1cb-388375fa2c51")
-		)
-		(pin "1"
-			(uuid "f081e71a-2cac-404d-b4ae-62e54e481248")
-		)
-		(instances
-			(project "Stardust"
-				(path "/0cf7f69c-baaa-4387-8176-0e8bab43a342"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -12466,82 +12390,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 146.05 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "828a2463-c30e-4f8d-a140-8dc687d28d19")
-		(property "Reference" "C5"
-			(at 146.05 70.104 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 146.05 72.136 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
-			(at 146.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_hightemp_en.pdf"
-			(at 146.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 146.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser PN" "810-Q1C0G2J104G280KC "
-			(at 146.05 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "23b26454-f77b-4cd0-a74d-ff6e1cdc3161")
-		)
-		(pin "1"
-			(uuid "67b70283-bb60-473f-9567-01547dba3886")
-		)
-		(instances
-			(project "Stardust"
-				(path "/0cf7f69c-baaa-4387-8176-0e8bab43a342"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "Conn_01x04_Pin_1")
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 273.05 74.93 180)
@@ -13691,6 +13539,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 146.05 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c83fe02f-9e7c-49eb-a909-66ea0132f3b2")
+		(property "Reference" "C5"
+			(at 146.05 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 146.05 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 146.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_hightemp_en.pdf"
+			(at 146.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 146.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN" "581-KAM21BR71H104JT"
+			(at 146.05 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "64dbd7f9-8a70-4ace-8112-cae3d455a5b7")
+		)
+		(pin "1"
+			(uuid "63ea6331-491f-4444-b78e-a4896dc6633a")
+		)
+		(instances
+			(project "Stardust"
+				(path "/0cf7f69c-baaa-4387-8176-0e8bab43a342"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 83.82 181.61 0)
 		(unit 1)
@@ -13847,7 +13771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 146.05 66.04 0)
 			(effects
 				(font
@@ -13874,7 +13798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser PN" "810-Q1C0G2J104G280KC "
+		(property "Mouser PN" "581-KAM21BR71H104JT"
 			(at 146.05 66.04 90)
 			(effects
 				(font
@@ -14077,6 +14001,82 @@
 			(project ""
 				(path "/0cf7f69c-baaa-4387-8176-0e8bab43a342"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 146.05 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4e0b88d-5596-47ac-903c-a499ec149c2d")
+		(property "Reference" "C6"
+			(at 146.05 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 146.05 81.026 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_hightemp_en.pdf"
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN" "581-KAM21BR71H104JT"
+			(at 146.05 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7d19639-9e36-4a3c-aff2-4a128a94f2fd")
+		)
+		(pin "1"
+			(uuid "4c3e812d-effb-46b4-ab7b-6879f477712a")
+		)
+		(instances
+			(project "Stardust"
+				(path "/0cf7f69c-baaa-4387-8176-0e8bab43a342"
+					(reference "C6")
 					(unit 1)
 				)
 			)
