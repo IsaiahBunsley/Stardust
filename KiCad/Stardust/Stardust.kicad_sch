@@ -5162,12 +5162,6 @@
 		(uuid "e7be7420-1ddc-4eb7-913f-8d73cab0c722")
 	)
 	(junction
-		(at 86.36 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6dbc2ea-53e2-4865-9710-ef6b478c8786")
-	)
-	(junction
 		(at 114.3 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5601,16 +5595,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 107.95) (xy 86.36 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2375b248-ddfe-45c0-9d8a-ea664373cd9c")
-	)
-	(wire
-		(pts
 			(xy 36.83 73.66) (xy 39.37 73.66)
 		)
 		(stroke
@@ -5888,16 +5872,6 @@
 			(type default)
 		)
 		(uuid "3abb3221-fcd5-4f8d-a1e6-73f8a2675a9d")
-	)
-	(wire
-		(pts
-			(xy 86.36 95.25) (xy 86.36 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b13a39e-34c3-44e2-8408-6d1d03d57532")
 	)
 	(wire
 		(pts
@@ -6378,16 +6352,6 @@
 			(type default)
 		)
 		(uuid "69f23ff6-1125-4212-8186-eb89b4733838")
-	)
-	(wire
-		(pts
-			(xy 73.66 107.95) (xy 76.2 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a044604-2b0d-4b41-a01b-b209bcc46d59")
 	)
 	(wire
 		(pts
@@ -8010,16 +7974,6 @@
 			(justify left bottom)
 		)
 		(uuid "1ef3c2cc-6472-432a-b732-77b0e3be248f")
-	)
-	(label "AUX8"
-		(at 73.66 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2346c0e4-95fc-49fa-842d-4fe318509112")
 	)
 	(label "EN1_B"
 		(at 208.28 135.89 0)
@@ -11705,73 +11659,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 78.74 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7002234b-d5a6-48d7-a8d2-9aa465b5da33")
-		(property "Reference" "R8"
-			(at 78.74 102.616 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7K"
-			(at 78.74 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 78.74 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 78.74 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "efca3d50-387e-4b2d-a83f-fd1c538832d0")
-		)
-		(pin "2"
-			(uuid "210189b2-a82f-4174-af46-9be12df0111b")
-		)
-		(instances
-			(project "Stardust"
-				(path "/0cf7f69c-baaa-4387-8176-0e8bab43a342"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 77.47 165.1 90)
 		(unit 1)
@@ -12426,7 +12313,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 232.41 129.54 180)
+		(at 227.33 129.54 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12434,7 +12322,7 @@
 		(dnp no)
 		(uuid "875f3604-d6ef-4fd9-b2ee-81cc0efc8fb9")
 		(property "Reference" "J6"
-			(at 228.346 120.904 0)
+			(at 231.394 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12442,7 +12330,7 @@
 			)
 		)
 		(property "Value" "1x3 Header"
-			(at 228.346 123.444 0)
+			(at 231.394 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12450,7 +12338,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 232.41 129.54 0)
+			(at 227.33 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12459,7 +12347,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 129.54 0)
+			(at 227.33 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12468,7 +12356,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 232.41 129.54 0)
+			(at 227.33 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
