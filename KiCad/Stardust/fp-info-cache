@@ -1,4 +1,4 @@
-24670324247477313
+24675544303116763
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91763,12 +91763,26 @@ Integrated Circuit
 4
 4
 Stardust
+10uFElectrolyticCap_CAPAE660X550N
+6.3*5.5mm
+Capacitor Polarised
+0
+2
+2
+Stardust
 12VREG_TO-252-3-L1_NMD
 
 NJM7812SDL1-TE1 
 0
 3
 3
+Stardust
+100uFElectrolyticCap_CAPAE830X1080N
+8*10
+Capacitor Polarised
+0
+2
+2
 Stardust
 DC_PowerConn_694108402002
 694108402002-2
@@ -99469,3 +99483,10 @@ Connector
 0
 16
 16
+images
+logo_footprint
+
+
+0
+0
+0

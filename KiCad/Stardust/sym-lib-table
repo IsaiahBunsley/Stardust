@@ -8,4 +8,5 @@
   (lib (name "12V Regulator")(type "KiCad")(uri "${STARDUST_LIB_SYM}/12VREG_MC7812BDTRKG.kicad_sym")(options "")(descr ""))
   (lib (name "Fuse Holder")(type "KiCad")(uri "${STARDUST_LIB_SYM}/FuseHolder_RHDR2W53P0X508_1X2.kicad_sym")(options "")(descr ""))
   (lib (name "RJ12")(type "KiCad")(uri "${STARDUST_LIB_SYM}/RJ12_85513-5002.kicad_sym")(options "")(descr ""))
+  (lib (name "logo_symbol")(type "KiCad")(uri "${KIPRJMOD}/images/logo_symbol.kicad_sym")(options "")(descr ""))
 )
