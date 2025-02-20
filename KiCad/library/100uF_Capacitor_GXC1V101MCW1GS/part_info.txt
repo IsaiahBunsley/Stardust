@@ -1,9 +1,0 @@
-Manufacturer=Nichicon
-PartNumber=GXC1V101MCW1GS
-PartCategory=Capacitor
-PackageCategory=Capacitor Al Electrolytic
-PinCount=2
-Version=1.1
-Released=2024-12-16 10:03:54
-Downloaded=2025-02-12 00:57:30
-3D=Y

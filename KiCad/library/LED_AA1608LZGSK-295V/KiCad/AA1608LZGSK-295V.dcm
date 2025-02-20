@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP AA1608LZGSK-295V
-D 1.6X0.8MM (0603) GREEN PLCC2 SMD LED mcd @2mA
-K
-F https://www.digikey.com/en/products/detail/kingbright/AA1608LZGSK-295V/24632684?msockid=3e3afa68a50969ca3057ef1ca4c9684b
-$ENDCMP
-#
-#End Doc Library

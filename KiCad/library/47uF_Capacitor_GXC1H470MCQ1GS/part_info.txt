@@ -1,9 +1,0 @@
-Manufacturer=Nichicon
-PartNumber=GXC1H470MCQ1GS
-PartCategory=Capacitor
-PackageCategory=Capacitor Al Electrolytic
-PinCount=2
-Version=1.1
-Released=2024-12-05 12:29:16
-Downloaded=2025-02-12 01:01:27
-3D=Y
