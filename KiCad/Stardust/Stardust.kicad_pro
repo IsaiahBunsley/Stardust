@@ -63,8 +63,8 @@
         "courtyards_overlap|130405000|69305000|3815f570-3ee2-439d-a66c-506298cba688|fcc91377-892d-4cc6-8429-5143f280b715",
         "courtyards_overlap|139655000|65805000|611ffdb1-b0e0-4a99-8707-7c822e51f05d|fcc91377-892d-4cc6-8429-5143f280b715",
         "courtyards_overlap|139655000|69055000|7150d800-43ec-4257-bc8b-965c257f311a|fcc91377-892d-4cc6-8429-5143f280b715",
-        "lib_footprint_mismatch|166750000|86500000|464eedc9-89d1-4424-9079-5e24c220653c|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|168500000|57750000|3765ed55-ca2a-4cb4-b97e-9a70f5bda050|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_mismatch|165750000|55250000|3765ed55-ca2a-4cb4-b97e-9a70f5bda050|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|166750000|86500000|464eedc9-89d1-4424-9079-5e24c220653c|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -125,7 +125,7 @@
         "max_error": 0.005,
         "min_clearance": 0.16,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 1.0,
+        "min_copper_edge_clearance": 0.85,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
