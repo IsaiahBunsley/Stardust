@@ -1,4 +1,4 @@
-24675544303116763
+24661674398608418
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -74074,13 +74074,6 @@ QFN NoLead
 33
 29
 Package_DFN_QFN
-QFN-28-1EP_4x4mm_P0.4mm_EP2.8x2.8mm
-QFN, 28 Pin (QFN28X4; https://www.wch-ic.com/downloads/CH32V203DS0_PDF.html), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-33
-29
-Package_DFN_QFN
 QFN-28-1EP_4x4mm_P0.45mm_EP2.4x2.4mm
 QFN, 28 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/8008S.pdf#page=16), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
@@ -81193,20 +81186,6 @@ MSOP SO
 24
 13
 Package_SO
-MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm
-MSOP, 12 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3652fe.pdf#page=24), generated with kicad-footprint-generator ipc_gullwing_generator.py
-MSOP SO
-0
-17
-13
-Package_SO
-MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm_ThermalVias
-MSOP, 12 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3652fe.pdf#page=24), generated with kicad-footprint-generator ipc_gullwing_generator.py
-MSOP SO
-0
-24
-13
-Package_SO
 MSOP-12-16-1EP_3x4mm_P0.5mm_EP1.65x2.85mm
 10-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
 SSOP 0.5
@@ -81235,13 +81214,6 @@ MSOP SO
 12
 12
 Package_SO
-MSOP-12_3x4mm_P0.65mm
-MSOP, 12 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf#page=36), generated with kicad-footprint-generator ipc_gullwing_generator.py
-MSOP SO
-0
-12
-12
-Package_SO
 MSOP-16-1EP_3x4.039mm_P0.5mm_EP1.651x2.845mm
 MSOP, 16 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-msop/05081667_F_MSE16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 MSOP SO
@@ -81256,29 +81228,8 @@ MSOP SO
 28
 17
 Package_SO
-MSOP-16-1EP_3x4mm_P0.5mm_EP1.65x2.85mm
-MSOP, 16 Pin (http://cds.linear.com/docs/en/datasheet/37551fd.pdf#page=23), generated with kicad-footprint-generator ipc_gullwing_generator.py
-MSOP SO
-0
-21
-17
-Package_SO
-MSOP-16-1EP_3x4mm_P0.5mm_EP1.65x2.85mm_ThermalVias
-MSOP, 16 Pin (http://cds.linear.com/docs/en/datasheet/37551fd.pdf#page=23), generated with kicad-footprint-generator ipc_gullwing_generator.py
-MSOP SO
-0
-28
-17
-Package_SO
 MSOP-16_3x4.039mm_P0.5mm
 MSOP, 16 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-msop/05081669_A_MS16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-MSOP SO
-0
-16
-16
-Package_SO
-MSOP-16_3x4mm_P0.5mm
-MSOP, 16 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/436412f.pdf#page=22), generated with kicad-footprint-generator ipc_gullwing_generator.py
 MSOP SO
 0
 16
@@ -99476,13 +99427,6 @@ Varistor VF
 0
 2
 2
-footprints
-1990148
-1990148-3
-Connector
-0
-16
-16
 images
 logo_footprint
 
