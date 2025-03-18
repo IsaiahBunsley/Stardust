@@ -22,7 +22,7 @@
   #define SERIAL_TMC_BAUD       460800           // Baud rate
   #define SERIAL_TMC_RX         39               // Recieving data
   #define SERIAL_TMC_TX         4                // Transmit data
-  #define SERIAL_TMC_ADDRESS_MAP(x) ((x==4)?2 : x) // Axis1(0) is 0, Axis2(1) is 1, Axis3(2) is 2, Axis4(3) is 3, Axis5(4) is 2
+  #define SERIAL_TMC_ADDRESS_MAP(x) ((x==1)?2 : x) // Axis1(0) is 0, Axis2(1) is 1, Axis3(2) is 2, Axis4(3) is 3, Axis5(4) is 2
 #endif
 
 // Specify the ESP32 I2C pins
